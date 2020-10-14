@@ -5,6 +5,10 @@
     --font-color: #445877;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 10px;
@@ -49,6 +53,8 @@ nav a {
 
 figure {
     display: flex;
+    height: 300px;
+    width: auto;
 }
 
 .pic {
@@ -60,13 +66,18 @@ figure {
     background-image: url("https://picsum.photos/2000/300");
     background-repeat: no-repeat;
     width: 100%;
-    height:300px;  
+    height:300px; 
+    /* display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end; */
+}
+.subtitle {
+    position: absolute;
+    right: 90px;
+    bottom: 340px;
 }
 
-.background h1 {
-    position: absolute;
-    right: 100px;
-    bottom: 50px;
+.subtitle h1 {
     background-color: var(--primary-color);
     color: var(--header-color);
     padding: 10px;
