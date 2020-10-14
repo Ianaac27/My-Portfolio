@@ -37,15 +37,14 @@ nav {
 
 nav li {
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 50px;
     list-style: none;
 }
 
 nav a {
     color: var(--primary-color);
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 figure {
@@ -65,11 +64,14 @@ figure {
 }
 
 .background h1 {
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
     background-color: var(--primary-color);
     color: var(--header-color);
-    width: 100px;
     padding: 10px;
     display: block;
-    font-size: 1.5em;
+    font-size: 25px;
     font-weight: bold;
+    
 }
