@@ -1,0 +1,48 @@
+:root {
+    --primary-color: #92CCCE;
+    --header-color: #31343D;
+    --background-color: #EEEEF7;
+    --font-color: #445877;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    margin: auto;
+    height: 150%;
+}
+
+header {
+    background-color: var(--header-color);
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    background-color: var(--primary-color);
+    font-size: 30px;
+    padding: 10px;
+}
+
+.name h1 {
+    margin-left: 50px;
+}
+
+nav {
+    margin-right: 50px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+nav a {
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-size: 20px;
+}
