@@ -119,13 +119,14 @@ h2 {
 
 #aboutme p {
     margin-top: 10px;
+    line-height: 1.5;
 }
 
 #work .right {
     display: flex;
     flex-wrap: wrap;
 }
-.boxone{
+.boxone {
     background-color: blue;
     background-size: 100%;
     flex: 100%;
@@ -134,11 +135,14 @@ h2 {
     margin-right: 20px;
     margin-left: 0;
     border: 5px solid var(--primary-color);
-    
-
+    width: auto;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-end;
+    padding-bottom: 20px;
 }
 
-.boxtwo{
+.boxtwo {
     background-color: red;
     background-size: 100%;
     flex: 40%;
@@ -147,6 +151,39 @@ h2 {
     margin-right: 20px;
     margin-left: 0;
     border: 5px solid var(--primary-color);
-    
+    width: auto;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
 
+.worksub {
+    background-color: var(--primary-color);
+    color: var(--header-color);
+    padding: 10px;
+    display: block;
+    font-size: 25px;
+    font-weight: bold; 
+    line-height: 1.5; 
+}
+
+.worksub p {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 105px;
+    list-style: none;
+    font-size: 20px;
+    text-decoration: underline;
 }
