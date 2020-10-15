@@ -142,7 +142,7 @@ h2 {
     display: flex;
     justify-content: flex-start; 
     align-items: flex-end;
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
 }
 
 .boxtwo {
@@ -158,6 +158,14 @@ h2 {
     justify-content: flex-start; 
     align-items: flex-end;
     padding-bottom: 20px;
+}
+
+.boxone:hover {
+    opacity: 0.5;
+}
+
+.boxtwo:hover {
+    opacity: 0.5;
 }
 
 #surfbox {
