@@ -50,6 +50,10 @@ nav a {
     font-size: 18px;
 }
 
+nav a:hover{
+    color: var(--background-color);
+}
+
 figure {
     display: flex;
     height: 300px;
@@ -204,4 +208,12 @@ footer li {
     list-style: none;
     font-size: 20px;
     text-decoration: underline;
+}
+
+footer a {
+    color: var(--font-color);
+}
+
+footer a:hover{
+    color: var(--primary-color);
 }
