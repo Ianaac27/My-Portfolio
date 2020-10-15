@@ -57,14 +57,14 @@ figure {
 }
 
 .pic {
-    width: 250px;
     height: 300px;
+    width: 15%;
 }
 
 .background {
     background-image: url("https://picsum.photos/2000/300");
     background-repeat: no-repeat;
-    width: 100%;
+    width: 86%;
     height:300px; 
     display: flex;
     justify-content: flex-end; 
