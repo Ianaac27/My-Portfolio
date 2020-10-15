@@ -127,7 +127,6 @@ h2 {
     flex-wrap: wrap;
 }
 .boxone {
-    background-color: blue;
     background-size: 100%;
     flex: 100%;
     height: 400px;
@@ -143,7 +142,6 @@ h2 {
 }
 
 .boxtwo {
-    background-color: red;
     background-size: 100%;
     flex: 40%;
     height: 180px;
@@ -156,6 +154,26 @@ h2 {
     justify-content: flex-start; 
     align-items: flex-end;
     padding-bottom: 20px;
+}
+
+#surfbox {
+    background-image: url(surf.jpg);
+}
+
+#ledbox {
+    background-image: url(led.jpg);
+}
+
+#calcbox {
+    background-image: url(calc.jpg);
+}
+
+#pastelbox {
+    background-image: url(puzzles2.jpg);
+}
+
+#runbox {
+    background-image: url(run2.jpg);
 }
 
 .worksub {
