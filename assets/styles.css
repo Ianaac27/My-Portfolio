@@ -114,6 +114,7 @@ h2 {
     margin-right: 50px;
     padding: 20px;
     color: var(--font-color);
+    height: auto;
 }
 
 #aboutme p {
