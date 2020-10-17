@@ -8,6 +8,8 @@ My personal portfolio features my skillset utulizing HTML and CSS. Within my por
 
 Here is a mock of my portfolio.
 
+![My Portfolio](assets/screenshot.png)
+
 ## Link
 
-Take a look at the live version here. 
+Take a look at the live version [here.][https://ianaac27.github.io/My-Portfolio/]
