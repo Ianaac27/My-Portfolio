@@ -2,7 +2,7 @@
 
 ## Description
 
-My personal portfolio features my skillset utulizing HTML and CSS. Within my portfolio are links to some of my other works, as well as, links to my resume and contact information. 
+My personal portfolio features my skillset utilizing HTML and CSS. Within my portfolio are links to some of my other works, as well as, links to my resume and contact information. 
 
 ## Table of Contents
 
